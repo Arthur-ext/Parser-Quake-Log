@@ -30,7 +30,7 @@ if __name__ == "__main__":
         print(report(games))
     else:
         games_json = json.dumps(games, indent=4)
-        # print(games_json)
+        print(games_json)
 
     if args.save:
         save_games(games)
