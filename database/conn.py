@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from urllib.parse import quote_plus
 
-def conn():    
+def conn_to_database():    
     user = "root"
     pswd = "root"
     host = "localhost:27017"
