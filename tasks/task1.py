@@ -26,10 +26,8 @@ def read_game_kills(file):
             if kill_regex.match(line):
                 insert_value_per_game(line, read_game[game])
                 
-                
-        
-        print(json.dumps(read_game, indent=4))
-        
+    # print(json.dumps(read_game, indent=4))
+    return read_game
 
 def insert_value_per_game(line, read_game):
     kill = kill_regex.match(line)
