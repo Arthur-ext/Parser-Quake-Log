@@ -30,7 +30,7 @@ Run docker-compose.yml
 ## Using - Parser
 
 View Parser description/help
-``` $ python main.py -l games.log -h ```
+``` $ python main.py -h ```
 
 ### Run parser - Task 1
 ``` $ python main.py -l games.log ```
