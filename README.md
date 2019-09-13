@@ -55,4 +55,4 @@ View Parser description/help
 ##### One Game
 `` http://localhost:5000/games/1 ``
 
-`in this example 1 is a number of the game`
+in this example 1 is a number of the game
