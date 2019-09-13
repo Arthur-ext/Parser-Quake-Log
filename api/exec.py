@@ -6,6 +6,11 @@ app = Flask(__name__)
 
 base = conn.conn_to_database()
 
+@app.route('/', methods=['GET'])
+def home():
+    res = "access /games - to consult all games<br/>access /games/[game_num] to consult this game"
+    return res
+
 @app.route('/games', methods=['GET'])
 def get_all_games():
     games = base.games_parsed
